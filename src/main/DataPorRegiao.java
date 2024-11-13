@@ -8,7 +8,7 @@ public class DataPorRegiao {
     public static void main(String[] args) {
 
         // Data e hora atual no fuso horário local
-        ZonedDateTime dataAtual = ZonedDateTime.of(LocalDateTime.parse("2024-11-06"), ZoneId.of("America/New_York"));
+        ZonedDateTime dataAtual = ZonedDateTime.of(LocalDateTime.parse("2024-11-06T18:30"), ZoneId.of("America/Sao_Paulo"));
         System.out.println("Data e hora atual (fuso local): " + dataAtual);
 
         // Mudando para o fuso horário de Nova York
